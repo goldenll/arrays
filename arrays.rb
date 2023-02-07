@@ -15,5 +15,10 @@ puts temperatures[0]
 #Currently here? 
 puts here[2]
 
-#When counting elements, always start with 0. So the first item in an array will be index position 0, the next is 1, etc. For example, for the pet names variable, there are four elements, Chocolate is in index position 0, and Jolene is in index position 3.
+# When counting elements, always start with 0. So the first item in an array will be index position 0, the next is 1, etc. For example, for the pet names variable, there are four elements, Chocolate is in index position 0, and Jolene is in index position 3.
 
+# Non-destructive Selection: 
+# This method allows you to select elements in an array that meet certain criteria
+
+
+temperatures.select {|a| a >= 100.0}
